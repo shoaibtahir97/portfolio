@@ -43,9 +43,15 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionDivider />
+      <br/>
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+        My name is Shoaib and I am a full stack Web and Mobile Application Developer having expertise in 
+        React and Node.js. I started my career as a develope in 2020. 
+      </SectionText>
+    </Section>
   );
 };
 
