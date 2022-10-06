@@ -8,7 +8,7 @@ const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const carouselRef = useRef();
 
   // const scroll = (node, left) => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
@@ -51,6 +51,17 @@ const Timeline = () => {
         My name is Shoaib and I am a full stack Web and Mobile Application Developer having expertise in 
         React and Node.js. I started my career as a develope in 2020. 
       </SectionText>
+      <CarouselContainer ref= {carouselRef}>
+        <>
+        {TimeLineData.map((item, index) => {
+          <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT -1}>
+            <CarouselItem>
+              
+            </CarouselItem>
+          </CarouselMobileScrollNode>
+        })}
+        </>
+      </CarouselContainer>
     </Section>
   );
 };
