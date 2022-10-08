@@ -1,16 +1,16 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'OLX Application',
+    description: "Using HTML, CSS, Bootstrap, JavaScript, Firebase and Browser Local Storage I replicated the OLX Application. The App allows users to post their Ads stores them in local storage and displays them on the screen.",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Firebase'],
+    source: 'https://shoaibtahir-olx-application.netlify.app/',
+    visit: 'https://github.com/shoaibtahir97/olx-replica',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Digital Clock',
+    description:"While building it I learned many advanced JavaScript topics, as well as how to use Date function in JavaScript. On top of that, the digital clock application displays the time and date along with the current day present on the system. I also used css gradient effect to develop the animations around the borders of the clock",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
