@@ -9,23 +9,25 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Digital Clock',
-    description:"While building it I learned many advanced JavaScript topics, as well as how to use Date function in JavaScript. On top of that, the digital clock application displays the time and date along with the current day present on the system. I also used css gradient effect to develop the animations around the borders of the clock",
+    title: 'Camper Cafe',
+    description:"A website built using vanilla HTML and CSS which displays the menu of a cafe, having a fixed background",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['HTML', 'CSS'],
+    source: 'https://shoaibtahir-camper-cafe.netlify.app/',
+    visit: 'https://github.com/shoaibtahir97/responsive-webdesign-projects-by-freecodecamp/tree/master/2(Camper_Cafe)',
     id: 1,
   },
+
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'CSS Color Markers',
+    description: "CSS Color Markers, in which I created a blur effect outside it borders and a sticker on its body using opacity property",
+    image: '/images/3.png',
+    tags: ['HTML', 'CSS'],
+    source: 'https://shoaibtahir-color-marker.netlify.app/',
+    visit: 'https://github.com/shoaibtahir97/responsive-webdesign-projects-by-freecodecamp/tree/master/3(Color_Markers)',
     id: 2,
   },
+
   {
     title: 'Unichat',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
@@ -38,9 +40,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey by learning  Inernet of Things and Rust ', },
+  { year: 2020, text: 'Shifted from IOT to Front End Web Development', },
+  { year: 2021, text: 'Worked as a freelance Web Developer', },
+  { year: 2022, text: 'Learning Full Stack Web and Mobile Application Development', },
+  
 ];
